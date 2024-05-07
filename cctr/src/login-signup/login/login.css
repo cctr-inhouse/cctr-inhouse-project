@@ -81,13 +81,13 @@ body{
     margin-bottom: 100px;
 }
 
-.loginsvgimage{
+.loginsvgimage img{
     position: absolute;
     margin-bottom: 0vh;
-    left: 300px;
-    height: 35vw;
-    width: 35vw;
-    top: 230px;
+    left: 200px;
+    height: 50vh;
+    width: 30vw;
+    top: 270px;
 }
 
 
@@ -162,7 +162,7 @@ form button{
     padding: 1.2vh;
     padding-left: 4vh;
     padding-right: 4vh;
-    background-color: #84E1E6;
+    background-color: #264796;
     border: #84E1E6;
     font-size: 1.8vh;
     font-weight: 500;

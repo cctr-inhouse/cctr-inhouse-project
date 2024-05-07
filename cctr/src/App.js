@@ -5,11 +5,12 @@ import Login from './login-signup/login/Login';
 import Signup from './login-signup/signup/Signup';
 import './App.css'
 import Loginpage from './login-signup/login/Login';
+import Signuppage from './login-signup/signup/Signup';
 const App = () => {
   return (
     <div>
       <Home/>
-      <Loginpage/>
+      <Signuppage/>
     </div>
   )
 }

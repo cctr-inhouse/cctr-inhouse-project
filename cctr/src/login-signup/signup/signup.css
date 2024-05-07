@@ -18,15 +18,28 @@ body{
 
 
 .signupcontainer{
-    width: 96VW;
-    height: 88vh;
+    width: 100VW;
+    height: 100vh;
     margin-right: 0px;
     border-radius: 1.3vh;
     box-shadow:  -11px -11px 22px #cbc8ff,
              11px 11px 22px #cbc8ff;
     display: flex;
-    margin-top: 2vh;
     background-color: #f0f0f0;
+}
+
+
+.signupcontainer .reactslider{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reactslider img{
+    width: 100vw;
+    height: 100vh;
 }
 
 .logo{
@@ -60,15 +73,22 @@ form{
     align-items:center;
     flex-direction: column;
     position: absolute;
-    right: 8vh;
-    top: 24vh;
+    right: 10vw;
+    top: 4vh;
     gap: 0.3vh;
+    z-index: 1000;
+}
+
+.cctrlogo{
+    width: 60vh;
+    height: 25vh;
+    margin-bottom: 0px;
 }
 
 .signuptitle{
     position: relative;
-    top: 0vh;
-    right:8vh;
+    top: -1vh;
+    right:7vh;
     font-size: 3.7vh;
 }
 .signupconnect{

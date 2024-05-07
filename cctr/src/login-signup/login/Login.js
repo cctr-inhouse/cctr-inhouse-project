@@ -125,13 +125,13 @@ const Loginpage=()=>{
     return( <>
         <div className="logincontainer"  >
         <div className="halfcont2"></div>
-        /*<div className="reactslider">
+        <div className="reactslider">
     <Carousel  {...settings}>
       <div>
         <img src={slider1}/>
       </div>
     </Carousel>
-    </div>*/
+    </div>
           
           <Toaster/>
         <div className="loginlogo">
@@ -154,9 +154,9 @@ const Loginpage=()=>{
         <button  onClick={handleTypeChange} className="showpassword">{<FaEye className="eyeicon" />}</button>
         <CiLock className="loginpassicon"/>
         </label>
-        <button type="loginsubmit">Login</button>
+        <button style={{backgroundColor:"#264796",color:"white"}} type="loginsubmit">Login</button>
 
-        <span>Don't have account yet? <Link to="/signup" style={{color: ' #01E1E5', textDecoration: 'none'}}>Signup here</Link></span>
+        <span>Don't have account yet? <Link to="/signup" style={{color: ' #264796', textDecoration: 'none'}}>Signup here</Link></span>
        </form>
     </div>
     </>
