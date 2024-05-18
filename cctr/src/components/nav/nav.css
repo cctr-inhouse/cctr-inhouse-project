@@ -1,0 +1,202 @@
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.navContainer {
+    width: 100vw;
+    min-height: 100px;
+    z-index: 1000;
+    margin-top: -465px;
+    border-bottom: black 1px solid;
+    font-family: "Lora", serif;
+}
+
+.navWrap {
+    background-color: white;
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLogo img {
+    max-width: 200px;
+    height: auto;
+    top: 0px;
+    position: relative;
+    z-index: 1000;
+}
+
+.logoImg {
+
+}
+
+.navToggle {
+    display: none;
+}
+
+.navToggle button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    z-index: 1000;
+}
+
+.navToggle i {
+    font-size: 22px;
+    color: black;
+}
+
+.navToggle.open i {
+    color: white;
+}
+
+@media screen and (max-width: 786px) {
+    .navToggle {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.navMenu {
+    flex: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navMenu > * {
+    flex: 1;
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+.ctaButton {
+    padding: 9px 35px;
+    font-size: 15px;
+    color: #5347d8;
+    background-color: #ffffff !important;
+    border: none;
+    font-family: "Lora", serif !important;
+    border-radius: 50px;
+    border: none !important;
+    box-shadow: 0px 0px 7px #5347d8;
+    transition: box-shadow 1.5s ease, background-color 1.5s ease;
+    cursor: pointer;
+}
+
+.ctaButton:hover {
+    box-shadow: none;
+    background-color: #5347d8 !important;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 786px) {
+    .navMenu {
+        flex-direction: column;
+        background-color: hsla(229, 31%, 21%, 0.951);
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 100vh;
+        display: none;
+    }
+
+    .navMenu.open {
+        display: flex;
+    }
+}
+
+.menuItems {
+    flex: 10;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 786px) {
+    .menuItems {
+        flex: 1;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 7rem;
+    }
+}
+
+.menuItem {
+    margin-right: 3rem;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+.menuItem:hover {
+    color: #264796;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 786px) {
+    .menuItem {
+        margin-right: 0rem;
+        text-align: center;
+        border-top: 0.1rem solid hsl(0, 0%, 59%);
+        padding: 1rem 0rem;
+        margin: 0rem 1rem;
+    }
+}
+
+.ctaDesktop button {
+    width: 100%;
+    margin-right: 1.8rem;
+    background-color: #D52D27;
+    border: 2px solid #D52D27;
+}
+
+@media screen and (max-width: 786px) {
+    .ctaDesktop {
+        display: none;
+    }
+}
+
+.ctaMobile {
+    display: none;
+}
+
+.ctaMobile button {
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 786px) {
+    .ctaMobile {
+        flex: 10;
+        margin: 1rem;
+        width: 100%;
+        display: block;
+        padding: 0rem 1rem;
+        display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
+}
+
+.headerSocial {
+    display: none;
+}
+
+@media screen and (max-width: 786px) {
+    .headerSocial {
+        display: flex;
+    }
+}
+
+.headerSocialItem {
+    margin: 1rem;
+}

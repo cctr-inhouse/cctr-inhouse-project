@@ -10,7 +10,6 @@ const App = () => {
   return (
     <div>
       <Home/>
-      <Signuppage/>
     </div>
   )
 }

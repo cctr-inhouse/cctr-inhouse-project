@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from '../../nav/nav'
+import Nav from '../nav/nav'
 function Home() {
   return (
     <div>
@@ -13,4 +13,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;
